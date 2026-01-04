@@ -27,3 +27,5 @@ old_price=soup.find('span', id='old_price').text
 print(f'Название: {name}\n{article}\n{count}\nНовая цена: {price}\nСтарая цена: {old_price}')
 for txt in description:
     print(txt.text)
+
+# Happy birthday)
